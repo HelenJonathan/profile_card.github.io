@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    text-align: center; 
+    font-size: 11px;
+}
+.container  {
+    background: url(images/bg-pattern-top.svg);
+    background-color: hsl(185, 75%, 39%);
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.card {
+    min-width: 40vh;
+    min-height: auto;
+}
+.header_section {
+    background: url(images/bg-pattern-card.svg);
+    padding: 15px;
+    border-radius: 10px 10px 0px 0px;
+}
+.image {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-bottom: -75px;
+    border: 6px solid white;
+    border-radius: 50%;
+    min-width: 30px;
+}
+.main_content {
+    background-color: white;
+    padding: 15px 0px;
+}
+h3 {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 16px;
+    color: hsl(229, 23%, 23%);
+}
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.name span {
+    font-size: 15px;
+}
+.name h3 {
+    padding: 0px 10px;
+}
+p {
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight:  400;
+    font-size: 12px;
+    color:hsl(0, 0%, 59%);
+}
+span {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight:  400;
+    font-size: 10px;
+    color:hsl(0, 0%, 59%);
+}
+hr {
+    color:rgba(255, 255, 255, 0.597);
+}
+.footer {
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+.footer .followers {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+} 
+.attribution {
+    color: hsl(229, 23%, 23%);
+    padding: 10px;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+    color: hsl(227, 10%, 46%);
+    padding-left: 5px;
+}
+
+@media screen and (min-width: 650px) {
+    .card {
+        min-width: 40vh;
+        mmin-height: auto;
+    }
+    .header_section{
+        padding: 10px;
+    }
+    .image {
+        margin-bottom: -70px;
+    }
+    p {
+        font-size: 10px;
+    }
+    h3 {
+        font-size: 10px;
+    }
+    span {
+        font-size: 10px;
+    }
+}
